@@ -1,0 +1,4 @@
+echo @echo off > run_app.bat
+echo echo Running Streamlit App... >> run_app.bat
+echo streamlit run object_detect_app.py >> run_app.bat
+echo pause >> run_app.bat
